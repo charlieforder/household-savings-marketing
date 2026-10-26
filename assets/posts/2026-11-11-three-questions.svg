@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img"><defs>
+<linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#062C34"/><stop offset="1" stop-color="#0E5A5C"/></linearGradient>
+<linearGradient id="cream" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF9EC"/><stop offset="1" stop-color="#E7DCC9"/></linearGradient>
+<linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFC75D"/><stop offset="1" stop-color="#F57A55"/></linearGradient>
+<filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#08262A" flood-opacity=".26"/></filter>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="24"/></filter>
+<pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2" fill="#F7F1DF" opacity=".23"/></pattern>
+</defs>
+<rect width="1080" height="1080" fill="#EAE9DF"/>
+<path d="M0 0H1080V355H0Z" fill="#E77F5C"/>
+<path d="M0 355Q350 310 580 350T1080 320V430H0Z" fill="#F1BC63"/>
+<text x="72" y="65" font-family="Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="3" fill="#173A40">HOUSEHOLD SAVINGS  /  WITH CHARLIE</text>
+<text x="70" y="179" font-family="Arial,sans-serif" font-size="80" font-weight="900" fill="#173A40">3 QUESTIONS</text>
+<text x="70" y="266" font-family="Arial,sans-serif" font-size="80" font-weight="900" fill="#173A40">BEFORE YOU</text>
+<text x="70" y="351" font-family="Arial,sans-serif" font-size="80" font-weight="900" fill="#173A40">SWITCH.</text>
+<g filter="url(#shadow)">
+<rect x="65" y="432" width="950" height="138" rx="26" fill="#FFFCF4"/>
+<circle cx="143" cy="501" r="48" fill="#0E5960"/>
+<text x="143" y="518" font-family="Arial,sans-serif" font-size="45" font-weight="900" text-anchor="middle" fill="#FFFFFF">1</text>
+<text x="223" y="491" font-family="Arial,sans-serif" font-size="39" font-weight="800" fill="#143E43">What do I pay now?</text>
+<text x="223" y="533" font-family="Arial,sans-serif" font-size="26" fill="#4B5E5B">Start with your actual monthly costs.</text>
+<rect x="65" y="594" width="950" height="138" rx="26" fill="#FFFCF4"/>
+<circle cx="143" cy="663" r="48" fill="#0E5960"/>
+<text x="143" y="680" font-family="Arial,sans-serif" font-size="45" font-weight="900" text-anchor="middle" fill="#FFFFFF">2</text>
+<text x="223" y="653" font-family="Arial,sans-serif" font-size="39" font-weight="800" fill="#143E43">What do I actually need?</text>
+<text x="223" y="695" font-family="Arial,sans-serif" font-size="26" fill="#4B5E5B">Speed, data, service and flexibility.</text>
+<rect x="65" y="756" width="950" height="138" rx="26" fill="#FFFCF4"/>
+<circle cx="143" cy="825" r="48" fill="#0E5960"/>
+<text x="143" y="842" font-family="Arial,sans-serif" font-size="45" font-weight="900" text-anchor="middle" fill="#FFFFFF">3</text>
+<text x="223" y="815" font-family="Arial,sans-serif" font-size="39" font-weight="800" fill="#143E43">What are the terms?</text>
+<text x="223" y="857" font-family="Arial,sans-serif" font-size="26" fill="#4B5E5B">Check contracts and switching conditions.</text>
+</g>
+<rect x="0" y="937" width="1080" height="143" fill="#0B444A"/>
+<text x="72" y="992" font-family="Arial,sans-serif" font-size="30" font-weight="800" fill="#FFF9ED">NO PRESSURE. JUST BETTER QUESTIONS.</text>
+<text x="72" y="1030" font-family="Arial,sans-serif" font-size="22" fill="#F8CB79">Message Charlie for a free, no-obligation review →</text>
+<text x="72" y="1058" font-family="Arial,sans-serif" font-size="17" fill="#C6DCD2">Independent Utility Warehouse Partner  ·  Offers and savings vary</text>
+</svg>
