@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img"><defs>
+<linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#062C34"/><stop offset="1" stop-color="#0E5A5C"/></linearGradient>
+<linearGradient id="cream" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF9EC"/><stop offset="1" stop-color="#E7DCC9"/></linearGradient>
+<linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFC75D"/><stop offset="1" stop-color="#F57A55"/></linearGradient>
+<filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#08262A" flood-opacity=".26"/></filter>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="24"/></filter>
+<pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2" fill="#F7F1DF" opacity=".23"/></pattern>
+</defs>
+<rect width="1080" height="1080" fill="url(#night)"/>
+<circle cx="912" cy="288" r="325" fill="#F1A765" opacity=".16"/>
+<path d="M0 70H1080" stroke="#FFFFFF" stroke-opacity=".17" stroke-width="2"/>
+<text x="72" y="50" font-family="Arial,sans-serif" font-size="23" letter-spacing="4" font-weight="700" fill="#B9D9CF">HOUSEHOLD SAVINGS  /  WITH CHARLIE</text>
+<text x="69" y="206" font-family="Arial,sans-serif" font-size="100" font-weight="900" fill="#FFF7E8">BUFFERING.</text>
+<text x="69" y="314" font-family="Arial,sans-serif" font-size="109" font-weight="900" fill="#F8BC5A">AGAIN?</text>
+<path d="M72 343H550" stroke="#EE8B63" stroke-width="10" stroke-linecap="round"/>
+<text x="72" y="405" font-family="Arial,sans-serif" font-size="30" fill="#F6F2E9">Broadband should fit your life,</text>
+<text x="72" y="448" font-family="Arial,sans-serif" font-size="30" fill="#F6F2E9">not the other way around.</text>
+<g transform="translate(62 498)">
+ <rect x="0" y="0" width="956" height="412" rx="30" fill="#F6E6CD"/>
+ <rect x="0" y="0" width="956" height="42" rx="30" fill="#E4CDAE"/>
+ <rect x="55" y="55" width="390" height="250" rx="12" fill="#A6C8C2"/>
+ <path d="M65 275L193 140L275 214L337 148L432 263V293H65Z" fill="#5F8D85"/>
+ <circle cx="353" cy="115" r="32" fill="#F9D98C"/>
+ <rect x="460" y="52" width="424" height="246" rx="24" fill="#2B5959"/>
+ <rect x="488" y="76" width="368" height="193" rx="14" fill="#152F3A"/>
+ <rect x="504" y="91" width="334" height="164" rx="10" fill="#77AFA8"/>
+ <circle cx="673" cy="142" r="44" fill="#F0BA93"/>
+ <path d="M608 237Q612 174 674 175Q740 176 741 237" fill="#F7B95B"/>
+ <path d="M643 115Q673 88 704 116" stroke="#493F36" stroke-width="20" stroke-linecap="round" fill="none"/>
+ <path d="M600 278H760L789 309H570Z" fill="#C6D4CE"/>
+ <path d="M0 335H956V412H0Z" fill="#B77952"/>
+ <path d="M0 335H956" stroke="#8D543E" stroke-width="7"/>
+ <rect x="128" y="281" width="215" height="52" rx="12" fill="#D0E0D9"/>
+ <rect x="142" y="295" width="186" height="29" rx="6" fill="#22585C"/>
+ <path d="M95 334V390M380 334V390" stroke="#724C3A" stroke-width="24"/>
+ <path d="M830 331V397" stroke="#724C3A" stroke-width="25"/>
+ <path d="M838 330L868 174" stroke="#6D5140" stroke-width="14"/>
+ <path d="M823 182Q862 121 909 185Z" fill="#F4BC64"/>
+ <path d="M782 95Q827 52 870 95M803 120Q828 98 852 120M825 141h6" stroke="#F7C05F" stroke-width="12" fill="none" stroke-linecap="round"/>
+ <circle cx="110" cy="88" r="16" fill="#F2B761"/><circle cx="152" cy="88" r="16" fill="#F2B761"/><circle cx="194" cy="88" r="16" fill="#F2B761"/>
+</g>
+<rect x="0" y="935" width="1080" height="145" fill="#082C32"/>
+<text x="72" y="989" font-family="Arial,sans-serif" font-size="29" font-weight="800" fill="#FFFFFF">CHECK SPEED  ·  COVERAGE  ·  CONTRACT</text>
+<text x="72" y="1026" font-family="Arial,sans-serif" font-size="22" fill="#F6C46B">Free, no-obligation household bill review →</text>
+<text x="72" y="1055" font-family="Arial,sans-serif" font-size="17" fill="#B9D6CB">Independent Utility Warehouse Partner  ·  Availability and offers vary</text>
+</svg>
