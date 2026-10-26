@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img"><defs>
+<linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#062C34"/><stop offset="1" stop-color="#0E5A5C"/></linearGradient>
+<linearGradient id="cream" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF9EC"/><stop offset="1" stop-color="#E7DCC9"/></linearGradient>
+<linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFC75D"/><stop offset="1" stop-color="#F57A55"/></linearGradient>
+<filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#08262A" flood-opacity=".26"/></filter>
+<filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="24"/></filter>
+<pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2" fill="#F7F1DF" opacity=".23"/></pattern>
+</defs>
+<rect width="1080" height="1080" fill="#0C4247"/>
+<rect width="1080" height="1080" fill="url(#dots)" opacity=".18"/>
+<circle cx="899" cy="451" r="365" fill="#EFB85E"/>
+<circle cx="1042" cy="198" r="132" fill="#F18262"/>
+<text x="72" y="63" font-family="Arial,sans-serif" font-size="24" letter-spacing="3" font-weight="800" fill="#D4E8D8">HOUSEHOLD SAVINGS  /  WITH CHARLIE</text>
+<rect x="70" y="120" width="250" height="44" rx="22" fill="#F5C66D"/>
+<text x="94" y="150" font-family="Arial,sans-serif" font-size="20" font-weight="800" fill="#12474C">PARTNER SPOTLIGHT</text>
+<text x="69" y="278" font-family="Arial,sans-serif" font-size="74" font-weight="900" fill="#FFF9E9">CURIOUS</text>
+<text x="69" y="362" font-family="Arial,sans-serif" font-size="74" font-weight="900" fill="#FFF9E9">ABOUT THE</text>
+<text x="69" y="446" font-family="Arial,sans-serif" font-size="74" font-weight="900" fill="#FFF9E9">PARTNER</text>
+<text x="69" y="530" font-family="Arial,sans-serif" font-size="74" font-weight="900" fill="#F7BE61">OPPORTUNITY?</text>
+<path d="M72 562H545" stroke="#F0805C" stroke-width="9" stroke-linecap="round"/>
+<text x="72" y="627" font-family="Arial,sans-serif" font-size="27" fill="#E9EEDD">Find out what being an</text>
+<text x="72" y="666" font-family="Arial,sans-serif" font-size="27" fill="#E9EEDD">independent UW Partner involves.</text>
+<g transform="translate(628 555)" filter="url(#shadow)">
+<path d="M-10 300H440V340H-10Z" fill="#8C5741"/>
+<path d="M25 330V445M390 330V445" stroke="#6E4938" stroke-width="25"/>
+<path d="M92 100Q120 20 222 32Q323 45 337 141V297H82Z" fill="#285B60"/>
+<path d="M162 112Q178 90 217 91Q262 91 274 128L260 206H177Z" fill="#E2A97E"/>
+<path d="M161 128Q143 80 185 47Q239 6 281 69L280 125Q261 97 239 86Q192 113 161 128Z" fill="#3D3432"/>
+<path d="M105 252Q103 187 169 176H278Q344 191 347 255V315H105Z" fill="#F2EEE0"/>
+<path d="M123 224L44 273L86 305L164 270M325 224L402 266L376 304L289 270" fill="#E2A97E"/>
+<path d="M122 268L48 294" stroke="#C58A64" stroke-width="17" stroke-linecap="round"/>
+<rect x="148" y="241" width="230" height="145" rx="14" fill="#E9F1E9"/>
+<rect x="162" y="255" width="202" height="113" rx="8" fill="#376E73"/>
+<circle cx="263" cy="307" r="27" fill="#F4C566"/>
+<path d="M249 308L260 320L282 294" stroke="#154C4F" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M132 388H399L428 413H103Z" fill="#D0DED6"/>
+</g>
+<rect x="70" y="742" width="465" height="104" rx="22" fill="#F5C66D"/>
+<text x="103" y="786" font-family="Arial,sans-serif" font-size="27" font-weight="900" fill="#0B444A">ASK CHARLIE ABOUT</text>
+<text x="103" y="821" font-family="Arial,sans-serif" font-size="27" font-weight="900" fill="#0B444A">BECOMING A PARTNER →</text>
+<rect x="0" y="954" width="1080" height="126" fill="#062E34"/>
+<text x="70" y="1004" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#FFFFFF">LEARN MORE  ·  NO OBLIGATION</text>
+<text x="70" y="1044" font-family="Arial,sans-serif" font-size="19" fill="#C5DAD1">Independent Utility Warehouse Partner  ·  No income claims or guarantees</text>
+</svg>
