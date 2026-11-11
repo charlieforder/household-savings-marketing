@@ -1,0 +1,74 @@
+name: Build original Facebook Reels
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/reels/**/*.svg'
+      - '.github/workflows/build-facebook-reels.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render-reels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install SVG renderer
+        run: python -m pip install --disable-pip-version-check cairosvg
+      - name: Render portrait frames and assemble original Reels
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+          import cairosvg
+
+          for folder in Path('assets/reels').glob('*'):
+              frames = sorted(folder.glob('frame*.svg'))
+              if len(frames) < 2:
+                  continue
+
+              for svg in frames:
+                  png = svg.with_suffix('.png')
+                  cairosvg.svg2png(url=str(svg), write_to=str(png), output_width=720, output_height=1280)
+                  print(f'Rendered {png}')
+
+              files = [str(f.with_suffix('.png')) for f in frames]
+              cmd = ['ffmpeg', '-y', '-loglevel', 'warning']
+              for f in files:
+                  cmd += ['-loop', '1', '-framerate', '30', '-t', '4', '-i', f]
+
+              parts = [f'[{i}:v]fps=30,format=yuv420p,setsar=1[v{i}]' for i in range(len(files))]
+              previous = 'v0'
+              for i in range(1, len(files)):
+                  out = 'vout' if i == len(files)-1 else f'x{i}'
+                  offset = (4.0-0.6)*i
+                  parts.append(f'[{previous}][v{i}]xfade=transition=fade:duration=0.6:offset={offset:.1f}[{out}]')
+                  previous = out
+
+              output = folder / 'reel.mp4'
+              cmd += ['-filter_complex', ';'.join(parts), '-map', '[vout]',
+                      '-an', '-r', '30', '-c:v', 'libx264', '-preset', 'veryfast',
+                      '-crf', '27', '-pix_fmt', 'yuv420p', '-movflags', '+faststart',
+                      str(output)]
+              subprocess.run(cmd, check=True)
+              print(f'Rendered {output} ({output.stat().st_size} bytes)')
+          PY
+      - name: Commit video and storyboard previews
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/reels/
+          if git diff --cached --quiet; then
+            echo "No reel changes."
+          else
+            git commit -m "Render original portrait Reels and preview frames"
+            git push
+          fi
